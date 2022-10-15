@@ -1,10 +1,10 @@
-import { charmander } from './bases/inyection';
+import { charmander } from './bases/decorators';
 import './style.css';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 
 app.innerHTML = `
-  <h1>Hello ${charmander.imageUrl}!!!</h1>
+  <h1>Hello ${charmander.name}!!!</h1>
   <a href="http://vitejs.dev/guide/features.html target="_blank"></a>
 `
 
