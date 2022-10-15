@@ -1,4 +1,4 @@
-import { charmander } from './bases/decorators';
+import { charmander } from './bases/decorators2';
 import './style.css';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
